@@ -151,10 +151,11 @@ button{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    button{
-        border: 1px solid black;
-    }
+    
    }
+   button{
+    border: 1px solid black;
+}
    .hair-oil{
     height: 200px;
     display: flex;
@@ -202,7 +203,12 @@ font-weight: bold;
     justify-content: space-evenly;
     border-radius: 10px;
     border-style: 20px solid;
+    
    }
+   button{
+    border: 1px solid black;
+
+}
 
   .text-pa{
     display: flex;
@@ -211,6 +217,5 @@ font-weight: bold;
     width: 80%;
 
   }
-  .test-b{
-    border: 1px solid black;
-  }
+
+ 
