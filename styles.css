@@ -24,6 +24,7 @@ body{
 
 
 }
+
 .navbar{
     display: flex;
     align-items: center;
@@ -58,12 +59,14 @@ body{
   background-size: cover;
   height: 100vh;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)),url(./images/image2.webp);
+  
 }
 button{
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
     background-color: bisque;
+    border: 1px solid black;
 }
 
 .margin{
@@ -148,6 +151,9 @@ button{
     align-items: center;
     justify-content: center;
     gap: 40px;
+    button{
+        border: 1px solid black;
+    }
    }
    .hair-oil{
     height: 200px;
@@ -156,9 +162,6 @@ button{
     align-items: center;
     justify-content: space-evenly;
     font-size: large;
-    
-
-
    }
    .bodybutter{
     height: 200px;
@@ -199,9 +202,8 @@ font-weight: bold;
     justify-content: space-evenly;
     border-radius: 10px;
     border-style: 20px solid;
-
-    border-color: black;
    }
+
   .text-pa{
     display: flex;
     flex-direction: column;
@@ -209,5 +211,6 @@ font-weight: bold;
     width: 80%;
 
   }
-
+  .test-b{
+    border: 1px solid black;
   }
